@@ -1,0 +1,14 @@
+{
+  "name": "pdf-qr-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A small Node.js example that generates a PDF with a QR code.",
+  "scripts": {
+    "generate": "node src/generate-pdf.mjs"
+  },
+  "dependencies": {
+    "pdfkit": "^0.17.2",
+    "qrcode": "^1.5.4"
+  }
+}
